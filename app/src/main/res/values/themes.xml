@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NavigationDA" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.NavigationDA.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.NavigationDA.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NavigationDA.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Buttons" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/barlow</item>
+        <item name="android:textSize">30dp</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="backgroundTint">#FFF</item>
+        <item name="alpha">0.6</item>
+    </style>
+
+    <style name="Buttons1" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/barlow</item>
+        <item name="android:textSize">30dp</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="backgroundTint">#e80f8f</item>
+        <item name="alpha">0.6</item>
+        <item name="android:startColor">#f6851b</item>
+        <item name="android:endColor">#e80f8f</item>
+        <item name="android:gradientRadius">50</item>
+    </style>
+</resources>
